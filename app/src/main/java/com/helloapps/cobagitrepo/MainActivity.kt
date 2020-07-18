@@ -5,6 +5,7 @@ import android.os.Bundle
 
 val a = 1234
 val b = 3
+val c = 1
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
