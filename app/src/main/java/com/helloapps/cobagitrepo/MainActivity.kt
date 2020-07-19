@@ -2,14 +2,19 @@ package com.helloapps.cobagitrepo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.helloapps.cobagitrepo.databinding.ActivityMainBinding
+import kotlinx.android.synthetic.main.activity_main.*
 
-val a = 1234
-val b = 3
-val c = 1
 
 class MainActivity : AppCompatActivity() {
+    lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+
     }
 }
