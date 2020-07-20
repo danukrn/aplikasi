@@ -35,6 +35,7 @@ public class EqualizerFragment extends Fragment {
 
     public static final String ARG_AUDIO_SESSIOIN_ID = "audio_session_id";
 
+
     ImageView backBtn;
     TextView fragTitle;
     SwitchCompat equalizerSwitch;
